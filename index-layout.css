@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+
+
+.footer {
+    position: relative;
+    margin-left: 0px;
+}
+
+#banner {
+    position: absolute;
+    top:  0px;
+    left: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    width: 99%;
+}
+
+.container-foot {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+
+}
+
+.foot-link {
+
+    border-style: solid;
+    border-radius: 6px;
+    border-color: black;
+    background-color: white;
+    padding: 1%;
+    text-align:  center;
+    margin:10px;
+    text-decoration: none;
+    width: 80%;
+    height: 20px;
+}
+
